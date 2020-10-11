@@ -1,0 +1,124 @@
+header {
+    height: 60px;
+    background: white;
+    width: 100%;
+    font-size: 1.6em;
+    position: relative;
+   .reh{
+    height: 60px;
+    width: 1236px;
+    margin: 0 auto;
+    // overflow: hidden;
+    position: relative;
+    // background-color: antiquewhite;
+    .reh_1{
+        a{
+            img{
+                padding-top: 20px;
+                width: 80px;
+                height: 20px;
+            }
+            span{
+                position: absolute;
+                left: 100px;
+                top: 22px;
+                color: #555555;
+                font-size: 14px;
+            }
+        }
+    }
+    .reh_2{
+        position: absolute;
+        top: 20px;
+        right: 200px;
+        font-size: 14px;
+    }
+   }
+   
+}
+.body{
+    width: 100%;
+    height: 610px;
+    // position: relative;
+    // background-color: aqua;
+    overflow: hidden;
+        img{
+            width: 100%;
+            height: 710px;
+        }
+    .boyl{
+       position: absolute;
+       top: 120px;
+       right: 180px;
+        background-color: #ffffff;
+        width: 450px;
+        height: 450px;
+        overflow: hidden;
+        h1{
+            width: 100%;
+            height: 50px;
+            border-bottom: 1px solid #d8d6d6;
+            padding-left: 40px;
+            line-height: 50px;
+        }
+        .ls{
+            margin-top: 30px;
+            input{
+                margin-left: 75px;
+                margin-top: 20px;
+                width: 300px;
+                height: 40px;
+                border: 1px solid #818181;
+            }
+            .ck{
+                width: 18px;
+                height: 18px;
+            }
+            button{
+                margin-left: 75px;
+                width: 300px;
+                margin-top: 20px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #505050;
+    position: relative;
+    ul{
+        margin-left: 150px;
+        li{
+            float: left;
+            font-size: 12px;
+            line-height: 50px;
+            text-align: center;
+            margin-left: 10px;
+            span{
+                margin-left: 10px;
+                color: #c7c7c7;
+            }
+            a{
+                color: #c7c7c7;
+                
+                &:hover{
+                    
+                    color: rgb(81, 81, 248);
+                }
+            }
+        }
+    }
+    .ft{
+        color: #c7c7c7;
+        margin-left: 500px;
+        position: relative;
+        top: 15px;
+        font-size: 12px;
+    }
+}
